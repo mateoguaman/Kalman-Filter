@@ -1,0 +1,23 @@
+READ THIS FOR IMPLEMENTATION AND EXPLANATION, SEARCH FOR HIS GYRO AND ACCELEROMETER CALIBRATION ROUTINE
+http://blog.tkjelectronics.dk/2012/09/a-practical-approach-to-kalman-filter-and-how-to-implement-it/
+
+Same person, more implementation tips
+http://forum.arduino.cc/index.php/topic,58048.0.html
+
+Great first explanation of topics
+https://home.wlu.edu/~levys/kalman_tutorial/kalman_20.html
+
+Explanation of Kalman Filters
+http://www.cs.unc.edu/~welch/media/pdf/kalman_intro.pdf
+
+Another explanation
+http://academic.csuohio.edu/simond/courses/eec644/kalman.pdf
+
+Podcast about Kalman filters and IMUs in embedded systems, apparently useful
+https://www.embedded.fm/episodes/2014/3/19/43-a-lot-of-high-falutin-math
+
+Kalman vs complementary filters
+http://robottini.altervista.org/kalman-filter-vs-complementary-filter
+
+Apparently useful
+https://www.nxp.com/docs/en/application-note/AN3461.pdf
