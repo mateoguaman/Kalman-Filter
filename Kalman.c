@@ -66,9 +66,24 @@ float getAngle(struct Kalman rpy, float newAngle, float newRate, float dt)
 //main: return roll, pitch, yaw
 int main() 
 {
+	//Initialize structures for all 3 axes
 	struct Kalman K_roll;
 	struct Kalman K_pitch;
 	struct Kalman K_yaw;
+	
+	//Variables for raw IMU data
+	double accX, accY, accZ;
+	double gyroX, gyroY, gyroZ;
+	double magX, magY, magZ;
+	
+	//Angles measured with gyroscope only
+	double gyroAngleX, gyroAngleY, gyroAngleZ;
+	
+	//Angles with Kalman filter
+	double kalmanAngleX, kalmanAngleY, kalmanAngleZ;
+	
+	//OPTIONAL Add complementary filter for comparison purposes
+	
 	return 0;
 }
 //Roll: Accelerometer and gyro
