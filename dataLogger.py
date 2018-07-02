@@ -1,10 +1,10 @@
 import serial
 
-serial_port = '/dev/cu.usbmodem14111';
+serial_port = '/dev/cu.usbmodem14121';
 baud_rate = 57600; #In arduino, Serial.begin(baud_rate)
 write_to_file_path = "output.txt";
 
-output_file = open("tilt.txt", "w+");
+output_file = open("still.txt", "w+");
 ser = serial.Serial(serial_port, baud_rate)
 while True:
     line = ser.readline();
