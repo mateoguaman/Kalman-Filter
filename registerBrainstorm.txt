@@ -1,0 +1,15 @@
+REGISTER CONFIG FOR LSM9DS1:
+
+WANT: Activate acc, gyro, and mag and set them up
+
+Pge 19 Datasheet:
+
+Write to  CTRL_REG1_G (10h) to activate both acc and gyr at the same ODR (Output Data Rate), value: ? (Active-low? Active-high?)
+Apparently with  CTRL_REG6_XL (20h) PD (Powered-down?) Check Fig. 5 and register table
+
+For mag sensor, set it to continuous-conversion mode, faster? Write to CTRL_REG3_M (22h)
+Do I want  magnetic data compensated by temperature? check datasheet for speed, possibly since temp will be variable outdoors\
+
+What sampling rate do acc/gyr/mag use? Check and come back to 3.2 to set Gyro speed regs
+
+
