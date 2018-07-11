@@ -4,6 +4,7 @@
 #define SDAPIN A4
 #define SCLPIN A5
 #define G_GAIN 0.07 // For 2000 dps/LSB
+#define I2C_TIMEOUT 1000 //To detect I2C timeout
 
 #define dt 0.02 //Loop time = 20 ms
 byte buff[6];
